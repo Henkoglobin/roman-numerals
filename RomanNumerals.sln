@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumerals", "RomanNumer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanNumerals.Tests", "RomanNumerals.Tests\RomanNumerals.Tests.csproj", "{488CB3E0-5994-4B52-9C58-5077F2337EB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumerals.Console", "RomanNumerals.Console\RomanNumerals.Console.csproj", "{B6A1F094-0D07-450B-BBE0-6A1C33F2B5B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{488CB3E0-5994-4B52-9C58-5077F2337EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{488CB3E0-5994-4B52-9C58-5077F2337EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{488CB3E0-5994-4B52-9C58-5077F2337EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A1F094-0D07-450B-BBE0-6A1C33F2B5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A1F094-0D07-450B-BBE0-6A1C33F2B5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A1F094-0D07-450B-BBE0-6A1C33F2B5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A1F094-0D07-450B-BBE0-6A1C33F2B5B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
