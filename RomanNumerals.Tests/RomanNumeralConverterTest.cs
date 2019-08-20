@@ -4,7 +4,7 @@ using Xunit;
 
 namespace RomanNumerals.Tests {
     public class RomanNumeralConverterTest {
-        private readonly INumeralConverter converter = new RomanNumeralConverter2();
+        private readonly INumeralConverter converter = new RomanNumeralConverter();
 
         [Theory]
         [InlineData(0, "roman numerals cannot represent zero")]

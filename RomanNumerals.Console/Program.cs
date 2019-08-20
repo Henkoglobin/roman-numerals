@@ -30,7 +30,7 @@ namespace RomanNumerals.Console {
 
         private static void ConfigureServices(IServiceCollection serviceCollection)
             => serviceCollection
-                .AddTransient<INumeralConverter, RomanNumeralConverter2>()
+                .AddTransient<INumeralConverter, RomanNumeralConverter>()
                 .AddSingleton<Application>()
             ;
     }
